@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wed, Nov 12, '25 - The Best Overnight Hold Day (According to ChatGPT)</title>
+    <link rel="stylesheet" href="../darkmode.css">
+</head>
+<body>
+   <header>
+    <img src="../assets/images/1-percent-better-every-day.jpg" alt="1-percent-better-every-day.jpg">
+    <h1>The Best Overnight Hold Day (According to ChatGPT)</h1>
+    <ul>
+        <li>Traders Mastermind |</li>
+        <li><small>markh@tradersmastermind.com</small> |</li>
+        <li>14:02</li>
+    </ul>
+    <hr>
+   </header>
+   <main>
+    <div>
+        <div class="lh">
+            <p>Well... the US equity bull run continues.</p>
+            <p>Markets keep shrugging off bad news, and the Dow had a mega day yesterday 🚀</p>
+        </div>
+        <p>But, I want to show you something else this morning...</p>
+        <p>How I used ChatGPT to quickly model out a simple overnight trading strategy.</p>
+        <div class="lh">
+            <p>After <span class="emp">another weekend gap up</span> on Monday.</p>
+            <p>I was curious:</p>
+        </div>
+        <p class="fsi">"Which days are best for an overnight gap up?"</p>
+        <div class="lh">
+            <p>I'm talking NYSE close to NYSE open.</p>
+            <p>Simple structure: buy at the close, sell at the open.</p>
+        </div>
+    </div>
+    <div>
+        <h2>ENTER CHATGPT</h2>
+        <div class="img50">
+            <img src="./assets/images/the-best-overnight-hold-day-according-to-chatgpt.jpg" alt="the-best-overnight-hold-day-according-to-chatgpt.jpg">
+        </div>
+        <p>So I enrolled my analyst and backtesting expert Monsieur Chat GPT...</p>
+        <p>Now, before you quant inclined traders whinge and moan and tell me "<span class="fsi">hmmmph that's not a proper backtest</span>"</p>
+        <p>Relax, I'm not building a production algo here...</p>
+        <p>I simply wanted to know <span class="emp">if there has been an edge in holding overnight, and if so, was there a specific day which stood out as the best?</span></p>
+        <div class="lh">
+            <p>So, I uploaded a year of QQQ (Nasdaq ETF) daily data to ChatGPT.</p>
+            <p>(Close and next-day open = easy gap calc).</p>
+        </div>
+        <p>First, I checked <span class="emp">weekend holds</span>.</p>
+        <p>Decent...</p>
+        <p>But, then I thought... "<span class="fsi">Let's test by weekday</span>."</p>
+        <p>(<span class="fsi">image above</span>)</p>
+        <p>This was a good start, Tuesday close to Wednesday open worked (ish)...</p>
+        <ul class="non">
+            <li>&#x2705; +0.12%</li>
+            <li>&#x2705; 57.7% win rate.</li>
+        </ul>
+        <p>(<span class="fsi">For context, 0.12% is about $30 on the Nasdaq or 60pts on the DOW</span>)</p>
+        <p>Ok, let's take it one step further...</p>
+        <p>"<span class="fsi">What about buying Tuesday OPEN selling Wednesday OPEN</span>"</p>
+        <div class="img25">
+            <img src="./assets/images/the-best-overnight-hold-day-according-to-chatgpt-ii.jpg" alt="the-best-overnight-hold-day-according-to-chatgpt-ii.jpg">
+        </div>
+        <p>Na...</p>
+        <p>So I switched it:</p>
+        <p>"<span class="fsi">How about Tuesday close to Wednesday close</span>?"</p>
+        <div class="img40">
+            <img src="./assets/images/the-best-overnight-hold-day-according-to-chatgpt-iii.jpg" alt="the-best-overnight-hold-day-according-to-chatgpt-iii.jpg">
+        </div>
+        <p>That's better.</p>
+        <p>Historically (well, a year) buying Tuesday's close and selling on Wednesday's close has had a <span class="emp">68% win rate</span> with an <span class="emp">average return of 0.43% ($105 on Nasdaq)</span></p>
+        <p>So, I asked ChatGPT to plot the <span class="emp">equity curve</span> for both.</p>
+        <ul class="non">
+            <li>&#x1F4C9; <span class="emp bld">Blue line:</span> Tuesday close → Wednesday close</li>
+            <li>&#x1F4C8; <span class="emp bld">Orange line:</span> Tuesday close → Wednesday open</li>
+        </ul>
+        <div class="img50">
+            <img src="./assets/images/qqq-tuesday-close-to-wednesday-open-vs-close.jpg" alt="qqq-tuesday-close-to-wednesday-open-vs-close.jpg">
+        </div>
+        <p>Nice smooth slope for the close-to-close version, even if it was skewed by one big day.</p>
+        <div class="lh">
+            <p class="emp">Takeaway?</p>
+            <p>I'm not saying go all-in Tuesday night.</p>
+        </div>
+        <p>But...</p>
+        <p class="emp bld">TradingView + ChatGPT = a powerful tool for theme testing.</p>
+        <p>If you're curious how I did it step-by-step, watch the Trading Strategy Generation with ChatGPT video here. <a href="https://tradersmastermind.com/ai-for-traders/" target="_blank">AI for Traders</a></p>
+    </div>
+   </main> 
+   <footer>
+    <h2>🔗 Explore More...</h2>
+    <p>​🤖 <a href="https://tradersmastermind.com/ai-for-traders/" target="_blank">AI for Traders</a></p>
+    <p>🎙️ <a href="https://tradersmastermind.com/dr-brett-steenbarger/" target="_blank">Dr. Brett Steenbarger: How Top Traders Train for Greatness</a></p>
+    <p>📋 <a href="https://tradersmastermind.com/how-to-create-a-trading-plan/" target="_blank">How to Create a Trading Plan</a></p>
+    <p>📈 <a href="https://tradingplanpro.com/" target="_blank">Spot What's Hurting Your Trading with Trading Plan Pro</a></p>
+   </footer>
+</body>
+</html>
