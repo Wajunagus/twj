@@ -1,14 +1,12 @@
 a {
-    color: rgb(78, 113, 255); /*https://colorhunt.co/palette/5409da4e71ff8dd8ffbbfbff*/
+    color: lightskyblue;
+    color: aqua;
 }
 .bld {
     font-weight: bold;
 }
 body {
     background-color: black;
-}
-.emp {
-    color: rgb(72, 161, 17); /*https://colorhunt.co/palette/25671e48a111f2b50bf7f0f0*/
 }
 footer {
     margin: auto;
