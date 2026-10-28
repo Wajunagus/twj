@@ -74,8 +74,14 @@ img {
     margin-right: auto;
     width: 80%;
 }
+.imp { /*important*/
+    padding: 10px;
+    border-left: 3px solid red;
+    background-color: rgb(31, 45, 65);
+    width: fit-content;
+}
 .key {
-    color: rgb(3, 174, 210); /*https://colorhunt.co/palette/03aed2f8de22f45b26d12052*/
+    color: rgb(72, 161, 17); /*https://colorhunt.co/palette/25671e48a111f2b50bf7f0f0*/
 }
 .lh {
     background-color: rgb(10, 10, 10);
@@ -90,9 +96,16 @@ main {
     color: darkgrey;
     line-height: 1.6;
 }
+section {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: rgb(25, 25, 20);
+    border-radius: 1%;
+}
 strong {
     font-weight: normal;
-    color: rgb(0, 139, 255); /*https://colorhunt.co/palette/362f4f5b23ff008bffe4ff30*/
+    color: rgb(3, 174, 210); /*https://colorhunt.co/palette/03aed2f8de22f45b26d12052*/
 }
 ul.cust {
     list-style: none;
@@ -113,14 +126,4 @@ ul.cust li::before {
     left: 1px;
     color: #4CAF50;
     font-size: 12pt;
-}
-ul.non { /*none*/
-    list-style-type: none;
-    padding: 10px;
-    border-left: 3px solid red;
-    background-color: rgb(31, 45, 65);
-    width: fit-content;
-}
-ul.non li {
-    margin: 5px 0;
 }
