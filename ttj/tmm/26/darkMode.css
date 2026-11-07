@@ -100,8 +100,8 @@ section {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px 10px;
-    background-color: rgb(20, 20, 15);
-    border-radius: 1%;
+    /*background-color: rgb(20, 20, 15);*/
+    /*border-radius: 1%;*/
 }
 strong {
     font-weight: normal;
@@ -126,4 +126,11 @@ ul.cust li::before {
     left: 1px;
     color: #4CAF50;
     font-size: 12pt;
+}
+.webinar-link::before {
+    content: "\f3c5"; /* Hex code for the Font Awesome map pin icon */
+    font-family: "Font Awesome 6 Free"; /* Tells the browser to use the toolkit font */
+    font-weight: 900; /* Solid icons require a weight */
+    margin-right: 8px; /* Adds space between the icon & text */
+    color: #ff4757; /* You can change the icon color easily! */
 }
