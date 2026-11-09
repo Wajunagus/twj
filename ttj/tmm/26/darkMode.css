@@ -4,6 +4,7 @@ a {
 }
 .bld {
     font-weight: bold;
+    color: whitesmoke;
 }
 body {
     background-color: black;
@@ -81,7 +82,7 @@ img {
     width: fit-content;
 }
 .key {
-    color: rgb(72, 161, 17); /*https://colorhunt.co/palette/25671e48a111f2b50bf7f0f0*/
+    background-color: darkslategrey;
 }
 .lh {
     background-color: rgb(10, 10, 10);
