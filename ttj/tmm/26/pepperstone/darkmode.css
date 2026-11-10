@@ -8,6 +8,9 @@ a {
 body {
     background-color: black;
 }
+.fs11 {
+    font-size: 11pt;
+}
 h1 {
     color: olive;
 }
@@ -54,6 +57,12 @@ img {
     margin-bottom: 10px;
     width: 50%;
 }
+.imp { /*important*/
+    padding: 10px;
+    border-left: 3px solid red;
+    background-color: rgb(31, 45, 65);
+    width: fit-content;
+}
 .key {
     background-color: darkslategray;
 }
@@ -66,4 +75,16 @@ section {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px 10px;
+}
+ul.lst {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.webinar-link::before {
+    content: "\f3c5"; /* Hex code for the Font Awesome map pin icon */
+    font-family: "Font Awesome 6 Free"; /* Tells the browser to use the toolkit font */
+    font-weight: 900; /* Solid icons require a weight */
+    margin-right: 8px; /* Adds space between the icon & text */
+    color: #ff4757; /* You can change the icon color easily! */
 }
