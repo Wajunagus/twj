@@ -128,6 +128,11 @@ ul.cust li::before {
     color: #4CAF50;
     font-size: 12pt;
 }
+ul.lst {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 .webinar-link::before {
     content: "\f3c5"; /* Hex code for the Font Awesome map pin icon */
     font-family: "Font Awesome 6 Free"; /* Tells the browser to use the toolkit font */
