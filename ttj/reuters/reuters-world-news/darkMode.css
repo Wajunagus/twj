@@ -96,3 +96,6 @@ strong {
     color: mediumseagreen;
     /*color: mediumspringgreen;*/
 }
+.ts { /* Time Stamp */
+    color: white;
+}
